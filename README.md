@@ -1,7 +1,7 @@
 # mongo-pacman
 
 A demo of a pacman (cloned from https://github.com/font/pacman) configured for Stone Soup.
-
+New Commit
 This is a two container application.
 1. Pacman frontend, this is the UI and can be scaled to multiple hosts
 2. A mongodb backend to store highscores.
