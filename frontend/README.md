@@ -33,26 +33,27 @@ The [Dockerfile](docker/Dockerfile) performs the following steps:
 To build the image run:
 
 ```
-cd docker
-docker build -t <registry>/<user>/pacman-nodejs-app .
+# Run this from the `frontend` folder
+cd frontend
+docker build -t <registry>/<user>/pacman-nodejs-app -f docker/Dockerfile .
 ```
 
 You can test the image by running:
 
 ```
-docker run -p 8000:8080 <registry>/<user>/pacman-nodejs-app
+docker run --rm -it -d --name pacman -p 8080:8080 <registry>/<user>/pacman-nodejs-app
 ```
 
-And going to `http://localhost:8000/` to see if you get the Pac-Man game.
+You can view container logs with:
+
+```
+podman logs pacman
+```
+
+Head to `http://localhost:8000/` in your browser to see the Pac-Man game.
 
 Once you're satisfied you can push the image to the container registry.
 
 ```
 docker push <registry>/<user>/pacman-nodejs-app
-```
-
-### Building using an s2i image
-
-```
-s2i build . centos/nodejs-6-centos7 pacman
 ```
