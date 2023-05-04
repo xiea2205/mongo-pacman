@@ -17,4 +17,14 @@ This is a two container application.
 
 Note, there will be two routes generated, use the pacman one to access the app.  
 
+## Build locally
 
+```bash
+podman build -t podman:local .
+```
+
+## Run locally
+
+```bash
+podman run -d --rm -it --name pacman -p 8080:8080 pacman:test
+```

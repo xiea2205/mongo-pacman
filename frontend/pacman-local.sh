@@ -9,5 +9,5 @@ npm --version
 export MONGO_AUTH_USER=pacman
 export MONGO_AUTH_PWD=pacman
 echo "run pacman"
-cd /pacman 
+cd /pacman/frontend 
 node bin/server.js
