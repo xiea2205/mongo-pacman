@@ -1,0 +1,3 @@
+FROM docker.io/xiea2205/pacman:latest
+RUN dnf -y install dos2unix
+RUN dos2unix /usr/local/bin/pacman.sh && chmod +x /usr/local/bin/pacman.sh

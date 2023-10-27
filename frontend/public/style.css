@@ -72,7 +72,7 @@ aside > * { margin: 0 15px; padding: 15px 0; }
     font-family: 'Acme', sans-serif;
     text-transform: uppercase;
     /*color: rgb(31,52,4);    - dark green */
-    color: rgba(0,0,0,0.55);
+    color: rgba(70,0,0,0.55);
     text-align: left;
     -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    2px 2px 5px rgba(50, 50, 50, 0.75);
@@ -99,7 +99,7 @@ padding: 0;
 margin: 0;
 }
 ul.nav.sub {
-background-color: rgba(0,0,0,0.3);
+background-color: rgba(70,0,0,0.3);
 background/*\**/: url(img/bg/black_30.png)\9;
 display: none;
 }
@@ -148,14 +148,14 @@ box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.75);
     }
 
 .main a, .main  a:link, .main  a:active, .main  a:visited {
-    /*color: rgba(20,20,20,0.9);
+    /*color: rgba(70,0,0,0.9);
     background: rgba(250,250,250,0.6);*/
 
     /*color: rgba(255,255,255,0.8);
 
-    background: #367e20;*/
+    background: #C981DF;*/
 
-    color: #367e20;
+    color: #C981DF;
     text-decoration: none;
 }
 .main  a:hover, .main  a:focus {
@@ -164,7 +164,7 @@ box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.75);
     background: rgba(250,250,250,0.5);*/
 
     text-decoration: underline;
-    color: #367e20;
+    color: #C981DF;
     }
 
 .content {
@@ -190,7 +190,7 @@ box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.75);
 
 .social a, .social  a:link, .social a:active, .social a:visited, .social a:hover, .social a:focus {
     /*color: rgb(31, 52, 4); - dark green */
-    color: rgba(0,0,0,0.55);
+    color: rgba(70,0,0,0.55);
     text-decoration: none;
     transition-property: opacity;
     transition-duration: 0.3s;
@@ -224,8 +224,8 @@ div + .box2, div + box3 { margin: 5px !important;}
 .portfolio-tile {
     width: 200px;
     height: 200px;
-    border: 1px solid rgba(0,0,0,0.5);
-    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(70,0,0,0.5);
+    background: rgba(70,0,0,0.5);
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -243,7 +243,7 @@ div + .box2, div + box3 { margin: 5px !important;}
     top: 165px;
     line-height: 25px;
     position: relative;
-    background: rgba(0,0,0,0.6);
+    background: rgba(70,0,0,0.6);
     background-size: 100%;
 }
 
@@ -257,7 +257,7 @@ span.portfolio-label {
     height: 35px;
     display: block;
     vertical-align: middle;
-    color: #fff !important;
+    color: #FFEBEB !important;
 }
 
 
@@ -310,7 +310,7 @@ span.portfolio-label {
 table {
     width: 100%;
     background-color: rgb(255,255,255);
-    color: rgba(0,0,0,0.9);
+    color: rgba(70,0,0,0.9);
     padding: 0;
     border-spacing: 0;
     /* padding: 1em; */
@@ -327,7 +327,7 @@ thead {
     }
 
 /*tbody tr:nth-child(even){
-    background-color: #efefef;
+    background-color: #A05252;
     }
 */
 
@@ -348,14 +348,14 @@ input[type=button], input[type=submit] {
     text-transform: uppercase;
     /*font-family: 'Acme',sans-serif;*/
     border-radius: 15px;
-    color: #fff;
+    color: #FFEBEB;
     border: none;
     }
 input[type=text], input[type=password], textarea {
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0px 1px 2px rgba(70, 0, 0, 0.3) inset;
 }
 input[type=button]:hover, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:focus {
-    background: #367e20;
+    background: #C981DF;
     cursor: pointer;
     }
 
@@ -386,7 +386,7 @@ input[type=text]:hover, input[type=text]:focus, input[type=password]:hover, inpu
 @media screen and (max-width: 1050px) {
 
     .main {
-        background: rgba(0,0,0,0.4);
+        background: rgba(70,0,0,0.4);
         background/*\**/: url(img/bg/black_40.png)\9;
         background-attachment: fixed;
     }
@@ -406,7 +406,7 @@ input[type=text]:hover, input[type=text]:focus, input[type=password]:hover, inpu
 html, body {    height: auto;}
 
 .main {    background: none; }
-body {     background: rgba(0,0,0,0.4);
+body {     background: rgba(70,0,0,0.4);
         background/*\**/: url(img/bg/black_40.png)\9;
     }
 
@@ -462,7 +462,7 @@ ul.nav {
 
 ul.nav.sub {
     margin: 0 auto;
-    background: rgba(0,0,0,0.4);
+    background: rgba(70,0,0,0.4);
     }
 
 ul.nav li, ul.nav.sub li{
